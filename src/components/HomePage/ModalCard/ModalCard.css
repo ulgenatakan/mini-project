@@ -1,0 +1,21 @@
+.ModalCard {
+  margin: 40px 40px;
+  padding: 10px 0;
+  max-width: 678px;
+  text-align: center;
+  background-color: #EEEFF3;
+  border-radius: 10px;
+  position: relative;
+}
+
+.ModalCard .Title {
+  margin: 0px 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 678px) {
+  .ModalCard {
+    margin: 10px 10px;
+  }
+}

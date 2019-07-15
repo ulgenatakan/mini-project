@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.css';
+
+.Header {
+  width: 100%;
+  position: relative;
+}

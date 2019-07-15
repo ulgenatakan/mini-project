@@ -1,0 +1,33 @@
+.HomePage {
+  position: relative;
+}
+
+.HomePage .ErrorMessage {
+  margin: 10px 40px;
+  padding: 10px 10px;
+  max-width: 678px;
+  text-align: center;
+  background-color: #EEEFF3;
+  border: 2px dashed #ED3D25;
+  border-radius: 10px;
+}
+
+.HomePage .ConfirmMessage {
+  margin: 10px 40px;
+  padding: 10px 10px;
+  max-width: 678px;
+  text-align: center;
+  background-color: #EEEFF3;
+  border: 2px dashed greenyellow;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 678px) {
+  .HomePage .ErrorMessage {
+    margin: 10px 10px;
+  }
+
+  .HomePage .ConfirmMessage {
+    margin: 10px 10px;
+  }
+}

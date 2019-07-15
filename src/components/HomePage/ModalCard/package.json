@@ -1,0 +1,6 @@
+{
+  "name": "ModalCard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ModalCard.js"
+}
